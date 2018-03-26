@@ -1,0 +1,48 @@
+﻿@model IEnumerable<TitleSplitterWeb.Models.TitleTextModel>
+
+@{
+    ViewBag.Title = "Sub Title Splitter Application";
+}
+
+
+<fieldset>
+    <legend>Sub Title Splitter</legend>
+    @using (Ajax.BeginForm("TitleTextDetail", "TitleText",
+                                    new AjaxOptions { UpdateTargetId = "divSubTitleDetails" }))
+    {
+        
+        <table class="table">
+            <tr>
+                <td>
+                    @Html.Label("Sub Title")
+                    @Html.TextArea("txtSubTitle")
+                </td>
+            </tr></table>
+            <button>Submit</button>
+            <br/>
+            <div id="divSubTitleDetails">
+                <table class="table">
+                    @if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.titleString)
+                                </td>
+                                <td>
+                                    @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+                                </td>
+                            </tr>
+                        }
+                    }
+                </table>
+
+            </div>
+
+
+    }
+</fieldset> 
+<br />

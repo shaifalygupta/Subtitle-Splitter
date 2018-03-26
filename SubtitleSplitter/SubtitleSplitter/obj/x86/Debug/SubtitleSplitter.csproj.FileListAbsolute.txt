@@ -1,0 +1,9 @@
+C:\Users\shaifaly\Downloads\SubtitleSplitter\SubtitleSplitter\bin\Debug\SubtitleSplitter.dll
+C:\Users\shaifaly\Downloads\SubtitleSplitter\SubtitleSplitter\bin\Debug\SubtitleSplitter.pdb
+C:\Users\shaifaly\Downloads\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.csprojResolveAssemblyReference.cache
+C:\Users\shaifaly\Downloads\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.dll
+C:\Users\shaifaly\Downloads\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.pdb
+D:\HCL\SubtitleSplitter\SubtitleSplitter\bin\Debug\SubtitleSplitter.dll
+D:\HCL\SubtitleSplitter\SubtitleSplitter\bin\Debug\SubtitleSplitter.pdb
+D:\HCL\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.dll
+D:\HCL\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.pdb
