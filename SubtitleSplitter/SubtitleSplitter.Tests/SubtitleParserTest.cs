@@ -12,7 +12,7 @@ namespace SubtitleSplitter.Tests
     class SubtitleParserTest
     {
         [Test]
-        public void ParseTest()
+        public void ParseTest_Sample_Text()
         {
             string SAMPLE_TEXT =
                 "Please write a program that breaks this text into small chucks. Each chunk should have a maximum length of 25 " +
@@ -30,9 +30,52 @@ namespace SubtitleSplitter.Tests
             string[] Result = controller.Parse(SAMPLE_TEXT);
 
             Assert.IsNotNull(Result);
-            //Assert.AreEqual(Result[0].ToString(), "Getting some error while parsing.");
+            Assert.AreNotEqual(Result[0].ToString(), "Getting some error while parsing.");
 
         }
+
+        [Test]
+        public void ParseTest_Blank_Text()
+        {
+            string SAMPLE_TEXT ="";
+
+            var controller = new SubtitleParser();
+
+
+            string[] Result = controller.Parse(SAMPLE_TEXT);
+
+            Assert.AreEqual(Result[0].ToString(), "Please insert Some Values for parsing.");
+
+        }
+
+        [Test]
+        public void ParseTest_Comma_SentBreak_Text()
+        {
+            string SAMPLE_TEXT = "Hi, there";
+
+            var controller = new SubtitleParser();
+
+
+            string[] Result = controller.Parse(SAMPLE_TEXT);
+            Assert.IsNotNull(Result);
+            Assert.AreEqual(Result.Length, 2);
+
+        }
+
+        [Test]
+        public void ParseTest_Comma_RemainlessFiveChar_Text()
+        {
+            string SAMPLE_TEXT = "Hi,there";
+
+            var controller = new SubtitleParser();
+
+
+            string[] Result = controller.Parse(SAMPLE_TEXT);
+            Assert.IsNotNull(Result);
+            Assert.AreEqual(Result.Length, 1);
+
+        }
+
     }
 
 

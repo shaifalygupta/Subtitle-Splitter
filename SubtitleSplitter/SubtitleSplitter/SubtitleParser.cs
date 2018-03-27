@@ -12,7 +12,7 @@ namespace SubtitleSplitter
         public string[] Parse(string str)
         {
             if (str.Trim().Length == 0)
-                return new  string[] { "Pease insert Some Values for parsing." };
+                return new  string[] { "Please insert Some Values for parsing." };
             const Int32 MAX_WIDTH = 25;
             try
             {

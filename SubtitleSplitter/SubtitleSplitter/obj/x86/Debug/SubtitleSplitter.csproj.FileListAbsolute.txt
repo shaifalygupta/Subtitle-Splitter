@@ -7,3 +7,7 @@ D:\HCL\SubtitleSplitter\SubtitleSplitter\bin\Debug\SubtitleSplitter.dll
 D:\HCL\SubtitleSplitter\SubtitleSplitter\bin\Debug\SubtitleSplitter.pdb
 D:\HCL\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.dll
 D:\HCL\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.pdb
+D:\Subtitle-Splitter\SubtitleSplitter\SubtitleSplitter\bin\Debug\SubtitleSplitter.dll
+D:\Subtitle-Splitter\SubtitleSplitter\SubtitleSplitter\bin\Debug\SubtitleSplitter.pdb
+D:\Subtitle-Splitter\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.dll
+D:\Subtitle-Splitter\SubtitleSplitter\SubtitleSplitter\obj\x86\Debug\SubtitleSplitter.pdb
